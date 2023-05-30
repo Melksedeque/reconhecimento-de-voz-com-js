@@ -1,0 +1,39 @@
+main.page-main {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+
+    h1 {
+        font-size: clamp(28px, 5vw, 50px);
+        margin: 10px 0;
+    }
+    
+    h2 {
+        font-size: clamp(25px, 5vw, 40px);
+        margin: 10px 0;
+    }
+    
+    .valor {
+        font-family: $number;
+    }
+    
+    .mensagem {
+        font-size: clamp(20px, 5vw, 30px);
+        margin: 50px 0 0;
+        .box {
+            background: transparent;
+            border: 2px solid $text;
+            border-radius: 0;
+            color: $text;
+            font-weight: bold;
+            font-size: clamp(50px, 5vw, 100px);
+            margin: 40px auto 20px;
+            max-width: 300px;
+            padding: 20px 0 30px;
+        }
+    }
+}
