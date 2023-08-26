@@ -16,7 +16,7 @@ function onSpeak(e) {
 function exibeChute(numero) {
     elementoChute.innerHTML = `
         <h3>Você disse:</h3>
-        <div class="box valor">${$numero}</div>
+        <div class="box valor">${numero}</div>
         <div class="alert">O número secreto é maior <i class="fa fa-light fa-arrow-up"></i></div>
     `
 }
