@@ -26,7 +26,14 @@ function validaChute(chute) {
             <main class="page-main">
                 <h1>Você acertou!</h1>
                 <h2>O número secreto era: ${numeroSecreto}</h2>
+                <button class="btn btn-lg btn-outline-light mt-5" id="jogar_novamente">Jogar novamente</button>
             </main>
         `
     }
 }
+
+document.body.addEventListener('click', (e) => {
+    if(e.target.id === 'jogar_novamente') {
+        window.location.reload()
+    }
+})
