@@ -1,4 +1,5 @@
 const elementoChute = document.querySelector('[data-mensagem="chute"]')
+const elementoMensagem = document.querySelector('[data-mensagem="mensagem"]')
 
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
 const recognition = new SpeechRecognition()
@@ -9,14 +10,13 @@ recognition.addEventListener('result', onSpeak)
 
 function onSpeak(e) {
     chute = e.results[0][0].transcript
-    exibeChute(chute)
     validaChute(chute)
+    exibeChute(chute)
 }
 
 function exibeChute(numero) {
     elementoChute.innerHTML = `
         <h3>Você disse:</h3>
         <div class="box valor">${numero}</div>
-        <div class="alert">O número secreto é maior <i class="fa fa-light fa-arrow-up"></i></div>
     `
 }
