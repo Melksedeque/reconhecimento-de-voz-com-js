@@ -10,6 +10,7 @@ recognition.addEventListener('result', onSpeak)
 
 function onSpeak(e) {
     chute = e.results[0][0].transcript
+    console.log(chute)
     validaChute(chute)
     exibeChute(chute)
 }
@@ -20,3 +21,5 @@ function exibeChute(numero) {
         <div class="box valor">${numero}</div>
     `
 }
+
+recognition.addEventListener('end', () => recognition.start())
