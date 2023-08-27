@@ -17,6 +17,10 @@ main.page-main {
         margin: 10px 0;
     }
     
+    h3 {
+        font-size: clamp(1.5rem, 0.6rem + 4vw, 2.75rem);
+    }
+    
     .valor {
         font-family: $number;
     }
@@ -32,8 +36,11 @@ main.page-main {
             font-weight: bold;
             font-size: clamp(4.375rem, 2.5rem + 6vw, 6.25rem);
             margin: 40px auto 20px;
-            max-width: 300px;
-            padding: 20px 0 30px;
+            padding: 20px 50px 30px;
         }
+    }
+
+    .alert {
+        font-size: clamp(1.250rem, 0.5rem + 3vw, 2.5rem);
     }
 }
