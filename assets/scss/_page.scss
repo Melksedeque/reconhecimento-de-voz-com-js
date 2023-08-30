@@ -20,6 +20,10 @@ main.page-main {
     h3 {
         font-size: clamp(1.5rem, 0.6rem + 4vw, 2.75rem);
     }
+
+    p {
+        margin-top: 50px;
+    }
     
     .valor {
         font-family: $number;
