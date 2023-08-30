@@ -10,7 +10,6 @@ recognition.addEventListener('result', onSpeak)
 
 function onSpeak(e) {
     chute = e.results[0][0].transcript
-    console.log(chute)
     validaChute(chute)
     exibeChute(chute)
 }
