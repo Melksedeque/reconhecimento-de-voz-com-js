@@ -4,14 +4,14 @@ function validaChute(chute) {
     
     if(Number.isNaN(numero)) {
         elementoMensagem.innerText = "Número inválido"
-        
+
         if(chute == "game over") {
             document.body.innerHTML = `
                 <main class="page-main">
                     <h1>GAME OVER!</h1>
                     <h2>Você encerrou o jogo</h2>
-                    <p>Clique no botão abaixo para recomeçar</p>
-                    <button class="btn btn-lg btn-outline-light mt-5" id="jogar_novamente">Jogar novamente</button>
+                    <p>Clique no botão abaixo para recomeçar:</p>
+                    <button class="btn btn-lg btn-outline-light mt-4" id="jogar_novamente">Jogar novamente</button>
                 </main>
             `
         }
