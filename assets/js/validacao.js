@@ -1,6 +1,5 @@
 function validaChute(chute) {
     const numero = +chute
-    console.log(chute)
     
     if(Number.isNaN(numero)) {
         elementoMensagem.innerText = "Número inválido"
