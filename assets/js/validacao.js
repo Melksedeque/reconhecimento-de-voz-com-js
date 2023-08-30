@@ -1,11 +1,8 @@
 function validaChute(chute) {
     const numero = +chute
     
-    if(Number.isNaN(numero) && numero != "game over") {
+    if(Number.isNaN(numero)) {
         elementoMensagem.innerText = "Número inválido"
-        return
-    } else if(numero == "game over") {
-        elementoMensagem.innerText = "Game Over!"
         return
     }
 
