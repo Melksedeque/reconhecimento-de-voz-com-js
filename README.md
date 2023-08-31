@@ -37,6 +37,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para melhorar o jogo, adici
 
 ## Autor
 
-Este jogo foi desenvolvido por [Seu Nome] e é um projeto de aprendizado divertido para trabalhar com o reconhecimento de voz em JavaScript.
+Este jogo foi desenvolvido por [Melksedeque](https://github.com/Melksedeque/) e é um projeto de aprendizado divertido para trabalhar com o reconhecimento de voz em JavaScript.
 
 Divirta-se jogando!
