@@ -35,8 +35,12 @@ Certifique-se de estar usando um navegador compatível com o reconhecimento de v
 
 Contribuições são bem-vindas! Sinta-se à vontade para melhorar o jogo, adicionar recursos ou corrigir qualquer problema que encontrar. Basta fazer um fork deste repositório, fazer suas alterações e enviar um pull request.
 
+**Divirta-se jogando!**
+
 ## Autor
 
 Este jogo foi desenvolvido por [Melksedeque](https://github.com/Melksedeque/) e é um projeto de aprendizado divertido para trabalhar com o reconhecimento de voz em JavaScript.
 
-Divirta-se jogando!
+## Aprendizado
+
+Neste projeto eu aprendi a consumir e manipular a Webspeech API, que me permitiu capturar a fala dos usuários no microfone do computador e traduzir em string para o sistema. Isso aprimorou ainda mais o meu desenvolvimento em JavaScript e me deixou mais empolgado para continuar buscando novas tecnologias dentro dessa linguagem.
